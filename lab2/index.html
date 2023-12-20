@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    .node {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #000;
+    position: absolute;
+  }
+  
+  .arrow {
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+  }
+  
+  #A { top: 20px; left: 20px; }
+  #B { top: 20px; left: 150px; }
+  #C { top: 20px; left: 280px; }
+  #D { top: 100px; left: 100px; }
+  #E { top: 100px; left: 230px; }
+  #F { top: 180px; left: 165px; }
+  #G { top: 260px; left: 100px; }
+  #H { top: 260px; left: 230px; }
+  #I { top: 340px; left: 165px; }
+  #J { top: 340px; left: 295px; }
+  #K { top: 420px; left: 165px; }
+  #L { top: 420px; left: 295px; }
+  
+  #arrow1 { top: 70px; left: 85px; transform: rotate(45deg); }
+  #arrow2 { top: 70px; left: 215px; transform: rotate(45deg); }
+  #arrow3 { top: 150px; left: 150px; }
+  #arrow4 { top: 230px; left: 185px; transform: rotate(-45deg); }
+  #arrow5 { top: 310px; left: 120px; }
+  #arrow6 { top: 390px; left: 255px; transform: rotate(45deg); }
+  #arrow7 { top: 70px; left: 35px; transform: rotate(45deg); }
+  #arrow8 { top: 150px; left: 85px; transform: rotate(-45deg); }
+  #arrow9 { top: 150px; left: 215px; transform: rotate(45deg); }
+  #arrow10 { top: 230px; left: 185px; transform: rotate(45deg); }
+  #arrow11 { top: 310px; left: 120px; transform: rotate(-45deg); }
+  #arrow12 { top: 310px; left: 255px; transform: rotate(-45deg); }
+  </style>
+</head>
+<body>
+  <div class="node" id="A">A</div>
+  <div class="node" id="B">B</div>
+  <div class="node" id="C">C</div>
+  <div class="node" id="D">D</div>
+  <div class="node" id="E">E</div>
+  <div class="node" id="F">F</div>
+  <div class="node" id="G">G</div>
+  <div class="node" id="H">H</div>
+  <div class="node" id="I">I</div>
+  <div class="node" id="J">J</div>
+  <div class="node" id="K">K</div>
+  <div class="node" id="L">L</div>
+
+  <div class="arrow" id="arrow1">A - B</div>
+  <div class="arrow" id="arrow2">B - C</div>
+  <div class="arrow" id="arrow3">C - E</div>
+  <div class="arrow" id="arrow4">E - F</div>
+  <div class="arrow" id="arrow5">F - K</div>
+  <div class="arrow" id="arrow6">K - L</div>
+  <div class="arrow" id="arrow7">A - D</div>
+  <div class="arrow" id="arrow8">B - D</div>
+  <div class="arrow" id="arrow9">E - G</div>
+  <div class="arrow" id="arrow10">E - H</div>
+  <div class="arrow" id="arrow11">G - I</div>
+  <div class="arrow" id="arrow12">H - J</div>
+</body>
+</html>
+
+  
